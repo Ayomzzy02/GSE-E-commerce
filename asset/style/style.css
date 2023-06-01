@@ -1,0 +1,242 @@
+/* Common styles for all screen sizes */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(207, 207, 233);
+    margin: 0; /* Add margin to reset default body margin */
+    padding: 0; /* Add padding to reset default body padding */  
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(54, 117, 138);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .logo {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+  }
+  
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-input {
+    padding: 8px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    width: 300px;
+  }
+  
+  .search-button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .cart-icon {
+    width: 1000px;
+    height: 100px;
+  }
+  
+
+.main-content {
+    padding-top: 50px; /* Add padding to the top of the main content to prevent overlap with fixed header */
+}
+
+.welcome-message {
+    color: black;
+    text-align: left;
+    font-family: 'Open Sans';
+    font-size: 18px;
+}
+
+  
+  .logo {
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    
+  }
+  
+  .search-input {
+    padding: 12px;
+    border-radius: 5px;
+    border: 2px solid #ccc; /* Added border properties */
+    width: 300px; /* Adjusted width value */
+    margin: 5px;
+  }
+  
+  .search-button {
+    background-color: #7a7fad;
+    color: #fcfcfc; /* Adjusted text color */
+    padding: 12px 20px; /* Adjusted padding values */
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+
+
+  }
+  
+  .cart-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+  }
+
+  .login-button {
+    background-color: rgb(110, 182, 206);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.login-button:hover {
+    background-color: #555;
+}
+
+  /* Spacing for other sections of the page */
+  main {
+    margin-top: 50px; /* Add margin to create spacing between header and main content */
+    margin-bottom: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+    
+  }
+
+  .Product {
+    margin-bottom: 20px; /* Add spacing between each product section */
+    overflow: hidden; /* Hide any overflowing content within the section */
+    margin: 20px 0; /* Add vertical spacing */
+    padding: 5px; /* Add padding within each product section */
+  }
+  
+
+  .Product .section-heading {
+    color: black; /* Set text color for section heading */
+    padding: 1px 4px; /* Reduce the vertical padding to make the height smaller */  
+    font-family: 'Open Sans';
+    font-size: 18px; /* Reduce the font size of the section heading */
+    height: 50px; /* Adjust the height as needed */
+    margin: 10px 0; /* Adjust the margin as needed */
+    border-radius: 0px 10px;
+
+  }
+  
+  .Fashion .section-heading {
+    background-color: rgb(13, 228, 110);
+  }
+  
+  .HomeAppliance .section-heading {
+    background-color: rgb(141, 193, 211);
+  }
+  
+  .Technologies .section-heading {
+    background-color: rgb(13, 228, 110);
+  }
+  
+  .Groceries .section-heading {
+    background-color: rgb(141, 193, 211);
+  }
+
+  .Product .product-list {
+    gap: 10px;
+    flex: 0 0 calc(50% - 10px); /* Adjust width of product item (2 items per row with 10px gap) */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    background-color: white; /* Set background color for product list */
+  }
+
+  .Product .product-list .image-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+  }
+  .Product .product-list .image-block img {
+    margin-bottom: 10px;
+  }
+  
+  .Product .product-list .image-block h3,
+  .Product .product-list .image-block p {
+    margin: 0;
+  }
+
+  .login-form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .login-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 300px;
+  }
+  
+  .login-form h2 {
+    color: #333;
+    margin-top: 0;
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .login-form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+
+  
+  
+  
+
+  
