@@ -236,15 +236,29 @@
   
  /* Footer styles */
 .footer-container {
-  background-color: #333;
+  background-color: rgb(54, 117, 138);
   color: #fff;
   padding: 20px;
   text-align: center;
 }
 
-.footer-container p {
-  margin: 0;
+footer {
+  background-color: rgb(54, 117, 138);
+  color: #fff;
+  padding: 10px;
 }
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.footer-content {
+  text-align: center;
+}
+
 
   
   

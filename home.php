@@ -136,11 +136,11 @@ if (!isset($_SESSION['Username'])) {
     </div>
   </div>
 </section>
+</main>
 <footer>
         <div class="footer-container">
-            <p>&copy; 2023 Your Website. All rights reserved.</p>
+            <p>&copy; 2023 e-commerce. All rights reserved.</p>
         </div>
     </footer>
-</main>
 </body>
 </html>
