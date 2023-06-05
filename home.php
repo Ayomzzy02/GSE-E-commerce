@@ -24,7 +24,7 @@ if (!isset($_SESSION['Username'])) {
         <button class="search-button" type="submit">Search</button>
     </div>
     <img class="cart-icon" src="./asset/images/cart.png" alt="cart icon">
-    <a href="login.php" class="login-button">Login</a> <!-- Add this line -->
+    <a href="login.php" class="login-button">Logout</a> <!-- Add this line -->
 </header>
 <main>
 <div class="welcome-message">
