@@ -136,6 +136,11 @@ if (!isset($_SESSION['Username'])) {
     </div>
   </div>
 </section>
+<footer>
+        <div class="footer-container">
+            <p>&copy; 2023 Your Website. All rights reserved.</p>
+        </div>
+    </footer>
 </main>
 </body>
 </html>
